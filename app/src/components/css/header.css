@@ -1,0 +1,47 @@
+.header {
+  background: url('header.jpg') center/cover no-repeat;
+  text-align: center;
+  color: var(--headerTextPrimaryColor);
+  padding-top: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.searchField {  
+  width: 20rem;
+  max-width: 80%;
+  padding-left: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.searchIcon {
+  background-color: var(--headerTextPrimaryColor);
+  color: var(--headerTextSecondaryColor);
+  cursor: pointer;
+}
+
+.selectorContainer:not(:last-child) {
+  padding-right: 1.5rem;
+}
+
+.selectorLabel {
+  padding-right: 0.5rem;
+}
+
+.selector {
+  padding-left: 0.5rem;
+  font-size: 0.9rem;
+}
+

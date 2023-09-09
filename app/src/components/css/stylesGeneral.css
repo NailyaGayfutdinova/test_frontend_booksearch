@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+  }
+
+:root {
+  --headerTextPrimaryColor: white;
+  --headerTextSecondaryColor: black;
+  --bodySecondaryColor: #dadada;
+  --bodyTextPrimaryColor: black;
+  --bodyTextSecondaryColor: #7b7b7b;
+}
