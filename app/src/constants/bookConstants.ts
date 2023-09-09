@@ -10,4 +10,4 @@ export const categories: string[] = [
 
 export const sortOptions: string[] = ['relevance', 'newest'];
 
-export const paginationStep = 10; // max = 40
+export const paginationStep = 30; // max = 40
